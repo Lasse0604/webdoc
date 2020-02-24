@@ -17,7 +17,7 @@ body {
     font: 12px/18px Roboto, sans-serif;
     margin: 0 auto;
     background-color: #221F1E;
-    color:#A94E33;
+    color: #A94E33;
 }
 
 #wrapper {}
@@ -63,9 +63,14 @@ ul li {
 
 #menu li a {
     text-decoration: none;
-    font-size: 2em;
     color: #A94E33
 }
+
+.menu-link {
+    font-size: 1.6em;
+}
+
+
 
 
 
@@ -73,7 +78,11 @@ ul li {
 -----------------------------------------------------------------------------*/
 main {}
 
-.slideshow-container {
+video {
+    max-width: 100%;
+}
+
+.slideshow {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -88,14 +97,51 @@ main {}
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-#om-os {margin-right: 10%;}
+#om-os {
+    margin-right: 10%;
+}
 
-h2{font-size:2.8em;}
+h2 {
+    font-size: 2.8em;
+}
 
-p{font-size:1.6em; line-height: 1.6em;padding-top: 2%; color: white;}
+p {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    padding-top: 2%;
+    color: white;
+}
 
+.thing1 {
+    width: 1920;
+    background-image: url(../images/bazarvest.gif);
+    padding-bottom:90%;
+}
+
+#flex-vores-historie {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50%;
+    padding-top: 2.5%;
+    background-color: #221F1E;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#vores-historie {
+    width: 60%; padding-left: 5%;
+}
+
+#vores-historie-2 {
+    width: 40%; padding-right: 5%;
+}
+
+img {
+    max-width: 100%;
+}
 
 
 /* Footer

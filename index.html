@@ -27,23 +27,23 @@
                 <section id="menu-section">
                     <nav>
                         <ul id=menu>
-                            <li><a href="#">
+                            <li><a href="#" class="menu-link">
                                     Om bageriget
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" class="menu-link">
                                     Vores historie
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" class="menu-link">
                                     Succes
                                 </a></li>
-                            <li><a href="#">
+                            <li><a href="#" class="menu-link">
                                     Råvare
                                 </a></li>
                         </ul>
                     </nav>
                 </section>
             </div>
-            <video src=images/istanbul-bageri-loop-4.0.mp4 type="video/mp4" alt="video of bazar vest" controls loop autoplay>
+            <video src=images/istanbul-bageri-loop-5.0.mp4 type="video/mp4" alt="video of bazar vest" controls loop autoplay>
             </video>
 
         </header><!-- .header-->
@@ -52,14 +52,19 @@
             <div id="flex-om-os">
 
                 <article id="om-os">
-                    <h2>Om os</h2>
+                    <h2>Om bageriget</h2>
                     <p>
-                        Vi er et arabisk bageri, som har base i Danmark. Vores brød er lavet fuldstændig<br> på samme måde, som man ville gøre i Istanbul. Hvis du har holdt ferie i Tyrkiet, <br> har du helt sikkert smagt tyrkiske brød. Et kendetegn ved tyrkiske brød er, <br>
-                        at det altid er friskbagt. <br>
+                        Vi er et arabisk bageri, som har base i Danmark. Vores brød er lavet <br>
+                        fuldstændig på samme måde, som man ville gøre i Istanbul. <br>
+                        Hvis du har holdt ferie i Tyrkiet, har du helt sikkert smagt <br> tyrkiske brød. Et kendetegn ved tyrkiske brød er, at det altid er friskbagt.
                         <br>
-                        Vores dygtige team som består af syv dedikeret medarbejder, står tidligt op hverdag <br> og gør deres allerbedste for at lave det bedste brød.<br>
                         <br>
-                        Vores butik ligger i Bazar Vest som er placeret i Aarhus området. Til dem der ikke <br>kender Bazar Vest, så er det et kæmpe stort markedet. Hvor der er masser af <br>forskellige butikker fra alle mulige nationaliteter. Det skaber utrolig meget liv <br>og en speciel stemning, som er med til at gøre et besøg hos Bazar Vest til en <br>oplevelse.
+
+                        Vores dygtige team som består af syv dedikeret medarbejder, <br>står tidligt op hverdag og gør deres allerbedste for at lave det bedste brød.
+                        <br>
+                        <br>
+                        Vores butik ligger i Bazar Vest som er placeret i Aarhus området.<br> Til dem der ikke kender Bazar Vest, så er det et kæmpe stort <br> marked. Hvor der er masser af forskellige butikker fra alle mulige <br> nationaliteter. Det skaber utrolig meget liv og en speciel stemning, <br>
+                        som er med til at gøre et besøg hos Bazar Vest til en <br>oplevelse.
                     </p>
                 </article>
 
@@ -80,8 +85,27 @@
 
             </div>
             
+            <div class="thing1"></div>
 
-       
+            <div id="flex-vores-historie" class="rellax" data-rellax-speed="15">
+                <article id="vores-historie">
+                    <h2>Vores historie</h2>
+                    <p>Vi startede Istanbul bageri for mange år siden i hjertet af Herning,<br>
+                        hvor vi solgte Tyrkiske brød, i vores butik. 
+                        <br>
+                        <br>
+                        I 1996 åbnede der en helt ny og spændende Bazar i Aarhus V, det så vi som en god mulighed <br>
+                        for vores bageri, så senere det år åbnede vi vores bageri lige ved hovedindgangen i Bazaren.
+                        I 2003 gik det så godt for vores bageri at vi simpelthen ikke havde nok plads til vores produktion, så vi blev simpelthen nød til at flytte location i bazaren. Så i 2003 flyttede vi til nye lokaler lige ved bagindgangen af Bazaren og det er et sted der kan vokse med os. </p>
+                </article>
+                <section id="vores-historie-2">
+                <img src="images/happy.JPG"></section>
+
+            </div>
+
+
+
+
         </main><!-- .content -->
 
         <footer>
@@ -89,8 +113,12 @@
         </footer><!-- .footer -->
 
     </div><!-- .wrapper -->
-    <script src="js/rellax.js"></script>
+
     <script src="js/script.js"></script><!-- .script -->
+    <script src="js/rellax.min.js"></script>
+    <script>
+    var rellax = new Rellax('.rellax');
+    </script>
 </body>
 
 </html>
