@@ -63,7 +63,8 @@ ul li {
 
 #menu li a {
     text-decoration: none;
-    color: #A94E33
+    color: #A94E33;
+    font-weight: bold;
 }
 
 .menu-link {
@@ -76,16 +77,19 @@ ul li {
 
 /* Middle
 -----------------------------------------------------------------------------*/
-main {}
+main {
+    height: ;
+}
 
 video {
     max-width: 100%;
 }
 
 .slideshow {
-    max-width: 1000px;
     position: relative;
     margin: auto;
+    width: 70%;
+    padding-top: 6%;
 }
 
 .slides {
@@ -94,15 +98,18 @@ video {
 
 #flex-om-os {
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-#om-os {
-    margin-right: 10%;
+#om-os-tekst {
+    padding-right: 10%;
+    width: 60%;
 }
+
+
 
 h2 {
     font-size: 2.8em;
@@ -110,45 +117,192 @@ h2 {
 
 p {
     font-size: 1.6em;
-    line-height: 1.6em;
+    line-height: 1.8em;
     padding-top: 2%;
     color: white;
 }
 
-.thing1 {
-    width: 1920;
-    background-image: url(../images/bazarvest.gif);
-    padding-bottom:90%;
+
+.bazargif {
+    padding-bottom: 22%;
+}
+
+#parallax-vores-historie-container {
+    margin-bottom: 110px;
 }
 
 #flex-vores-historie {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 50%;
-    padding-top: 2.5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 5%;
+    padding-top: 4%;
     background-color: #221F1E;
     display: flex;
     flex-direction: row-reverse;
 }
 
-#vores-historie {
-    width: 60%; padding-left: 5%;
+#vores-historie-tekst {
+    width: 60%;
+    padding-left: 5%;
 }
 
-#vores-historie-2 {
-    width: 40%; padding-right: 5%;
+#vores-historie-img {
+    width: 40%;
+    padding-right: 5%;
+    margin: auto;
 }
 
 img {
     max-width: 100%;
 }
 
+.img-par {
+    width: 60%;
+}
+
+#bager-video {
+    padding-bottom: 20%;
+}
+
+#paralax-succes-container {
+    padding-top: 5%;
+}
+
+
+#flex-succes {
+    display: flex;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #D0b39b;
+}
+
+#succes-tekst p {
+    color: #221f1e;
+
+}
+
+#succes-tekst {
+    width: 65%;
+}
+
+#succes-img {
+    width: 30%;
+    padding-top: 4%;
+
+}
+
+
+#flex-article-4 {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    background-color: #221F1E;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+
+#article-4-tekst {
+    width: 60%;
+    padding-left: 5%;
+}
+
+#article-4-img {
+    width: 40%;
+    padding-right: 5%;
+}
+
+
+
+#poster {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 4%;
+    background-color: #D0b39b;
+}
+
+.poster-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 10%;
+}
+
+#flex1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#flex2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
     height: auto;
-    background: #BFF08E;
+    background: #221F1E;
+    margin-bottom: -500px;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+footer p {
+    color: white;
+    font-size: 1.6em;
+    margin:0;
+}
+
+#footer-flex {
+    display: flex;
+    margin: auto;
+}
+
+#footer-logo {
+    max-width: 5%;
+    margin:auto;
+}
+
+#kontakt {
+    display: flex;
+    flex-direction: column;
+    width: ;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    width: ;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+
+#facebook {
+    max-width: 5%;
+    margin:auto;
 }
 
 

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="lasse madsen" />
     <meta name="description" content="template" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -43,28 +44,28 @@
                     </nav>
                 </section>
             </div>
-            <video src=images/istanbul-bageri-loop-5.0.mp4 type="video/mp4" alt="video of bazar vest" controls loop autoplay>
+            <video src=images/istanbul-bageri-loop-5.0.mp4 type="video/mp4" id="video-istanbul" alt="video of bazar vest">
             </video>
+
+
 
         </header><!-- .header-->
 
         <main>
+
             <div id="flex-om-os">
 
-                <article id="om-os">
+                <article id="om-os-tekst">
                     <h2>Om bageriget</h2>
                     <p>
-                        Vi er et arabisk bageri, som har base i Danmark. Vores brød er lavet <br>
-                        fuldstændig på samme måde, som man ville gøre i Istanbul. <br>
-                        Hvis du har holdt ferie i Tyrkiet, har du helt sikkert smagt <br> tyrkiske brød. Et kendetegn ved tyrkiske brød er, at det altid er friskbagt.
+                        Vi er et arabisk bageri, som har base i Danmark. Vores brød er lavet fuldstændig på samme måde, som man ville gøre i Istanbul. Hvis du har holdt ferie i Tyrkiet, har du helt sikkert smagt tyrkiske brød. Et kendetegn ved tyrkiske brød er, at det altid er friskbagt.
                         <br>
                         <br>
-
-                        Vores dygtige team som består af syv dedikeret medarbejder, <br>står tidligt op hverdag og gør deres allerbedste for at lave det bedste brød.
+                        Vores dygtige team som består af syv dedikeret medarbejder, står tidligt op hverdag og gør deres allerbedste for at lave det bedste brød.
                         <br>
                         <br>
-                        Vores butik ligger i Bazar Vest som er placeret i Aarhus området.<br> Til dem der ikke kender Bazar Vest, så er det et kæmpe stort <br> marked. Hvor der er masser af forskellige butikker fra alle mulige <br> nationaliteter. Det skaber utrolig meget liv og en speciel stemning, <br>
-                        som er med til at gøre et besøg hos Bazar Vest til en <br>oplevelse.
+                        Vores butik ligger i Bazar Vest som er placeret i Aarhus området. Til dem der ikke kender Bazar Vest, så er det et kæmpe stort marked. Hvor der er masser af forskellige butikker fra alle mulige nationaliteter. Det skaber utrolig meget liv og en speciel stemning,
+                        som er med til at gøre et besøg hos Bazar Vest til en oplevelse.
                     </p>
                 </article>
 
@@ -84,32 +85,120 @@
                 </div>
 
             </div>
-            
-            <div class="thing1"></div>
 
-            <div id="flex-vores-historie" class="rellax" data-rellax-speed="15">
-                <article id="vores-historie">
-                    <h2>Vores historie</h2>
-                    <p>Vi startede Istanbul bageri for mange år siden i hjertet af Herning,<br>
-                        hvor vi solgte Tyrkiske brød, i vores butik. 
-                        <br>
-                        <br>
-                        I 1996 åbnede der en helt ny og spændende Bazar i Aarhus V, det så vi som en god mulighed <br>
-                        for vores bageri, så senere det år åbnede vi vores bageri lige ved hovedindgangen i Bazaren.
-                        I 2003 gik det så godt for vores bageri at vi simpelthen ikke havde nok plads til vores produktion, så vi blev simpelthen nød til at flytte location i bazaren. Så i 2003 flyttede vi til nye lokaler lige ved bagindgangen af Bazaren og det er et sted der kan vokse med os. </p>
-                </article>
-                <section id="vores-historie-2">
-                <img src="images/happy.JPG"></section>
+            <div class="bazargif"><img src="images/bazarvest.gif"></div>
 
+            <div id="parallax-vores-historie-container" class="rellax" data-rellax-speed="14">
+
+                <div id="flex-vores-historie">
+
+                    <article id="vores-historie-tekst">
+                        <h2>Vores historie</h2>
+                        <p>
+                            Vi startede Istanbul bageri for mange år siden i hjertet af Herning, hvor vi solgte Tyrkiske brød, i vores butik.
+                            <br>
+                            <br>
+                            I 1996 åbnede der en helt ny og spændende Bazar i Aarhus V, det så vi som en god mulighed for vores bageri, så senere det år åbnede vi vores bageri lige ved hovedindgangen i Bazaren.
+                            <br>
+                            <br>
+                            I 2003 gik det så godt for vores bageri at vi simpelthen ikke havde nok plads til vores produktion, så vi blev simpelthen nød til at flytte location i bazaren. Så i 2003 flyttede vi til nye lokaler lige ved bagindgangen af Bazaren og det er et sted der kan vokse med os. </p>
+                    </article>
+                    <section id="vores-historie-img">
+                        <img src="images/happy.JPG">
+                    </section>
+
+                </div>
+
+                <audio id="bager-audio">
+                    <source src="images/ambiant.mp3" type="audio/mp3" alt="audio of bazar vest">
+                </audio>
+
+                <video src=images/istanbul-bageri.mp4 id="bager-video" type="video/mp4" alt="video of bazar vest">
+                </video>
+
+
+
+                <div id="parallax-succes-container" class="rellax" data-rellax-speed="5">
+                    <div id="flex-succes">
+
+                        <article id="succes-tekst">
+                            <h2>Succes</h2>
+                            <p id=succes-p>
+                                Vores succes kommer blandt andet fra den måde vi bager vores brød på.<br>
+                                Vi Bager nemlig ikke alt vores brød om morgenen. Vi bager nemlig hele dagen, <br>
+                                alt efter hvad vores kunder køber, så hvis vi nu sælger en masse fladbrød<br>
+                                om formiddagen så er det noget af det vi bager mere af senere på dagen.<br>
+                                Denne teknik sikre at vi altid har frisk brød og meget lidt madspild.
+                                <br>
+                                <br>
+                                Noget af vores succes og omtale kommer også fra vores populære pølsehorn. <br>
+                                I 2019 vandt vi den eftertragtet pris for at lave byens bedste pølsehorn, <br>
+                                Dette er vi er meget stolte af. Dommeren havde dette at sige <br>
+                                omkring vores lækre pølsehorn. “Pølsehornet ser indbydende ud.<br>
+                                Man kan se, der er lagt kærlighed i udformningen og ingen af dem<br>
+                                er ens, hvilket har en unik charme. Pølsen er også af en lækker kvalitet<br>
+                                og brødet er dejligt blødt.”</p>
+                        </article>
+
+                        <section id="succes-img">
+                            <img src="images/IMG_2363.JPG" alt="Pølsehorn">
+                            <img src="images/flag-of-turkey.gif" alt="Tyrkisk-dansk flag">
+                        </section>
+                    </div>
+
+
+                    <div id="flex-article-4">
+
+                        <article id="article-4-tekst">
+                            <h2>Råvare</h2>
+                            <p>Vores utroligt lækre og friske brød bliver lavet med tyrkisk tradition med danske råvare. Det meste af vores brød består nemlig kun af 3 simple ingredienser. Mel, gær og vand. Når ingredienserne er så simple, kræver det dog en meget avanceret proces, som alle vores bagere har brugt mange år på at perfektionere. </p>
+                        </article>
+
+                        <section id="article-4-img">
+                            <img src="images/IMG_2359.JPG">
+                        </section>
+                    </div>
+
+                    <div id="poster">
+                        <div id="flex1">
+                            <img src="images/IMG_2368.JPG" class="poster-img">
+                            <img src="images/IMG_2378.JPG" class="poster-img">
+                        </div>
+                        <div id="flex2">
+                            <img src="images/IMG_2394.JPG" class="poster-img">
+                            <img src="images/IMG_2401.JPG" class="poster-img">
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
 
 
         </main><!-- .content -->
 
-        <footer>
-            <strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
+        <footer id="footer-parallax" class="rellax" data-rellax-speed="5.4">
+
+            <div id="footer-flex">
+                   
+                    <img src="images/logo.svg" id="footer-logo" alt="logo">
+               
+                <section id="kontakt">
+                    <h3>Kontakt</h3>
+                    <p>Istanbul bageri</p>
+                    <p>86 25 00 66</p>
+                </section>
+
+                <section id="navigation">
+                    <h3>Navigation</h3>
+                    <p>Edwin Rahrs vej 32</p>
+                    <p>8229 Brabrand</p>
+                </section>
+              
+                    <img src="images/facebook.png" id="facebook" alt="facebook logo">
+               
+            </div>
+
+
+
         </footer><!-- .footer -->
 
     </div><!-- .wrapper -->
@@ -117,7 +206,8 @@
     <script src="js/script.js"></script><!-- .script -->
     <script src="js/rellax.min.js"></script>
     <script>
-    var rellax = new Rellax('.rellax');
+        let rellax = new Rellax('.rellax');
+
     </script>
 </body>
 
